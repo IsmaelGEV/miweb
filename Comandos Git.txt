@@ -1,0 +1,22 @@
+Comandos git
+
+git --version
+version de git
+
+git config --global user.name "nombre"
+configuración global y no por proyecto | se asgina nombre de usuario.
+
+git config --global user.email nombre@correo.com
+configurar el correo (no es necesario el uso de comillas).
+
+git config --global core.editor "code --wait"
+configuración para asignar un editor de texto, la opción de --wait es para que la terminal se quede esperando hasta que nostros cerremos nuestro de texto.
+
+git config --global -e
+para ver nuestro archivo de configuracion global (se abre dentro de nuestro editor de texto definido).
+
+git config --global core.autocrlf true
+configuración para modificar el salto de linea del OS, si es windows deber ser true, linux o mac input.
+
+git config --h
+todas las configuraciones de git
